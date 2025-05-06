@@ -1,8 +1,8 @@
 class Solution {
     public:
-      // This is Brute Force Approach
+      // Follow Up Approach
       //Time Complexicity  - O(N)
-      //Space Complexicity - O(N)
+      //Space Complexicity - O(1)
     
         vector<int> buildArray(vector<int>& nums) {
             vector<int>ans(nums.size());
