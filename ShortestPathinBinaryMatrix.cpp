@@ -28,7 +28,7 @@ class Solution {
                 int dist = grid[x][y];
                 
                 if (x == n - 1 && y == n - 1) return dist;
-       
+               
                 for (auto [dx, dy] : dir) {
                     int nx = x + dx, ny = y + dy;
                    
